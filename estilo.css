@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse; 
+}
+
+tbody tr {
+    background-color: rgba(91, 151, 0, 0.938)
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgb(114, 189, 2);
+}
+
+
+th, td {
+    border: 1px solid black;
+}
+
+thead, tfoot {
+    background-color: #4591ad;
+    color: white;
+}
+
+tfoot {
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: rgb(255, 187, 0);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+tbody tr:hover a {
+    background-color: rgb(100, 167, 0);
+}
